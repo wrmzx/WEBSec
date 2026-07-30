@@ -12,21 +12,30 @@
 
     <meta name="author" content="WEBSec">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="assets/images/logo.webp">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- ================= HEADER ================= -->
+
     <header>
 
         <div class="container">
 
             <div class="logo">
 
-                <img src="assets/images/logo.png" alt="Logo WEBSec">
+                <a href="index.html">
+                    <img src="assets/images/logo.webp"
+                        alt="Logo WEBSec"
+                        class="logo-img">
+                </a>
 
-                <div>
+                <div class="logo-text">
 
                     <h1>WEBSec</h1>
 
@@ -60,7 +69,8 @@
 
     </header>
 
-    <!-- HERO -->
+    <!-- ================= HERO ================= -->
+
     <main id="home">
 
         <section class="hero">
@@ -71,23 +81,24 @@
 
                 <p>
 
-                    WEBSec adalah blog teknologi yang membahas Linux,
-                    Open Source, Gaming di Linux, Hardware, dan tutorial
-                    praktis untuk pengguna Indonesia.
+                    Selamat datang di <strong>WEBSec</strong>, blog teknologi
+                    yang membahas Linux, Open Source, Gaming di Linux,
+                    Hardware, Web Development, dan tutorial praktis
+                    berbahasa Indonesia.
 
                 </p>
 
-                <div class="hero-button">
+                <div class="hero-buttons">
 
                     <a href="#artikel" class="button">
-                        Mulai Membaca
+                        📖 Mulai Membaca
                     </a>
 
                     <a href="https://github.com/wrmzx/WEBSec"
                         target="_blank"
                         class="button secondary">
 
-                        GitHub
+                        ⭐ GitHub
 
                     </a>
 
@@ -97,7 +108,7 @@
 
         </section>
 
-        <!-- ARTIKEL -->
+        <!-- ================= ARTIKEL ================= -->
 
         <section id="artikel" class="latest">
 
@@ -109,13 +120,15 @@
 
                     <article class="card">
 
-                        <span class="category">Linux</span>
+                        <span class="category">
+                            Linux
+                        </span>
 
                         <h3>Install Steam di Debian</h3>
 
                         <p>
 
-                            Panduan lengkap menginstal Steam
+                            Panduan lengkap memasang Steam
                             menggunakan repository resmi Debian.
 
                         </p>
@@ -132,8 +145,8 @@
 
                         <p>
 
-                            Perbandingan dua software audio terbaik
-                            untuk Linux.
+                            Perbandingan dua software audio
+                            terbaik untuk Linux.
 
                         </p>
 
@@ -149,8 +162,59 @@
 
                         <p>
 
-                            Cara memasang driver AMD pada Debian
-                            dan distro Linux lainnya.
+                            Cara memasang driver AMD
+                            di Debian dan distro Linux lainnya.
+
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+
+                        <span class="category">
+                            Gaming
+                        </span>
+
+                        <h3>Main Overwatch di Linux</h3>
+
+                        <p>
+
+                            Cara memainkan Overwatch
+                            menggunakan Steam dan Proton.
+
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+
+                        <span class="category">
+                            Open Source
+                        </span>
+
+                        <h3>VSCodium vs VS Code</h3>
+
+                        <p>
+
+                            Perbedaan editor open source
+                            dengan versi resmi Microsoft.
+
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+
+                        <span class="category">
+                            Terminal
+                        </span>
+
+                        <h3>20 Command Linux Wajib</h3>
+
+                        <p>
+
+                            Perintah Linux yang paling sering
+                            digunakan sehari-hari.
 
                         </p>
 
@@ -164,7 +228,7 @@
 
     </main>
 
-    <!-- FOOTER -->
+    <!-- ================= FOOTER ================= -->
 
     <footer id="about">
 
@@ -174,20 +238,34 @@
 
             <p>
 
+                Open Source • Linux • Technology
+
+            </p>
+
+            <p>
+
                 Blog Linux dan Open Source berbahasa Indonesia.
 
             </p>
 
             <p>
 
-                © 2026 WEBSec.
-                Dibuat dengan HTML, CSS, JavaScript dan GitHub Pages.
+                Dibuat menggunakan HTML5, CSS3,
+                JavaScript, dan GitHub Pages.
+
+            </p>
+
+            <p>
+
+                © 2026 WEBSec. All Rights Reserved.
 
             </p>
 
         </div>
 
     </footer>
+
+    <!-- JavaScript -->
 
     <script src="js/script.js"></script>
 
