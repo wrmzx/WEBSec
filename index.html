@@ -4,52 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBSec - Open Source • Linux • Technology</title>
+
+    <title>WEBSec | Open Source • Linux • Technology</title>
 
     <meta name="description"
-        content="WEBSec adalah blog Linux dan Open Source berbahasa Indonesia.">
+        content="WEBSec adalah blog Linux, Open Source, Gaming, Hardware, dan Teknologi berbahasa Indonesia.">
+
+    <meta name="author" content="WEBSec">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <!-- HEADER -->
     <header>
+
         <div class="container">
-            <h1>WEBSec</h1>
 
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Linux</a></li>
-                    <li><a href="#">Open Source</a></li>
-                    <li><a href="#">Gaming</a></li>
-                    <li><a href="#">Hardware</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+            <div class="logo">
 
-    <main>
+                <img src="assets/images/logo.png" alt="Logo WEBSec">
 
-        <section class="hero">
-            <div class="container">
+                <div>
 
-                <h2>Open Source • Linux • Technology</h2>
+                    <h1>WEBSec</h1>
 
-                <p>
-                    Selamat datang di WEBSec.
-                    Tempat belajar Linux, Open Source,
-                    Gaming, Hardware.
-                </p>
+                    <p>Open Source • Linux • Technology</p>
 
-                <a href="#" class="button">Mulai Membaca</a>
+                </div>
 
             </div>
+
+            <nav>
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#linux">Linux</a></li>
+
+                    <li><a href="#opensource">Open Source</a></li>
+
+                    <li><a href="#gaming">Gaming</a></li>
+
+                    <li><a href="#hardware">Hardware</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+    <main id="home">
+
+        <section class="hero">
+
+            <div class="container">
+
+                <h2>Belajar Linux & Open Source</h2>
+
+                <p>
+
+                    WEBSec adalah blog teknologi yang membahas Linux,
+                    Open Source, Gaming di Linux, Hardware, dan tutorial
+                    praktis untuk pengguna Indonesia.
+
+                </p>
+
+                <div class="hero-button">
+
+                    <a href="#artikel" class="button">
+                        Mulai Membaca
+                    </a>
+
+                    <a href="https://github.com/wrmzx/WEBSec"
+                        target="_blank"
+                        class="button secondary">
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <section class="latest">
+        <!-- ARTIKEL -->
+
+        <section id="artikel" class="latest">
 
             <div class="container">
 
@@ -58,18 +108,52 @@
                 <div class="cards">
 
                     <article class="card">
+
+                        <span class="category">Linux</span>
+
                         <h3>Install Steam di Debian</h3>
-                        <p>Panduan lengkap instalasi Steam di Debian.</p>
+
+                        <p>
+
+                            Panduan lengkap menginstal Steam
+                            menggunakan repository resmi Debian.
+
+                        </p>
+
                     </article>
 
                     <article class="card">
+
+                        <span class="category">
+                            Audio
+                        </span>
+
                         <h3>EasyEffects vs JamesDSP</h3>
-                        <p>Mana yang lebih baik untuk audio Linux?</p>
+
+                        <p>
+
+                            Perbandingan dua software audio terbaik
+                            untuk Linux.
+
+                        </p>
+
                     </article>
 
                     <article class="card">
+
+                        <span class="category">
+                            Driver
+                        </span>
+
                         <h3>Driver AMD RX560</h3>
-                        <p>Konfigurasi driver AMD di Linux.</p>
+
+                        <p>
+
+                            Cara memasang driver AMD pada Debian
+                            dan distro Linux lainnya.
+
+                        </p>
+
                     </article>
 
                 </div>
@@ -80,12 +164,25 @@
 
     </main>
 
-    <footer>
+    <!-- FOOTER -->
+
+    <footer id="about">
 
         <div class="container">
 
+            <h3>WEBSec</h3>
+
             <p>
-                © 2026 WEBSec • Open Source • Linux • Technology
+
+                Blog Linux dan Open Source berbahasa Indonesia.
+
+            </p>
+
+            <p>
+
+                © 2026 WEBSec.
+                Dibuat dengan HTML, CSS, JavaScript dan GitHub Pages.
+
             </p>
 
         </div>
