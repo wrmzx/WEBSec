@@ -2,23 +2,32 @@
    FEATURED ARTICLE
 =========================== */
 
-.cards .card:nth-child(-n+2) {
+.cards .card:nth-child(1),
+.cards .card:nth-child(2) {
     border: 1px solid var(--blue);
     background: linear-gradient(180deg, #1b2430 0%, var(--card) 100%);
 }
 
-.cards .card:nth-child(-n+2) h3 {
+.cards .card:nth-child(1) h3,
+.cards .card:nth-child(2) h3 {
     color: var(--blue);
 }
 
-.cards .card:nth-child(-n+2)::before {
-    content: "⭐ Unggulan";
+.cards .card:nth-child(1)::before,
+.cards .card:nth-child(2)::before {
+    content: "🔥 Featured";
     display: inline-block;
-    margin-bottom: 15px;
-    padding: 5px 12px;
+    margin-bottom: 12px;
+    padding: 4px 10px;
     border-radius: 20px;
     background: var(--green);
     color: #fff;
     font-size: 12px;
     font-weight: 600;
+}
+
+.cards .card:nth-child(1):hover,
+.cards .card:nth-child(2):hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 35px rgba(88, 166, 255, 0.25);
 }
